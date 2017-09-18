@@ -11,14 +11,11 @@ namespace VoiceEmail
     class Program
     {
         
-
         static void Main(string[] args)
         {
             ExchangeService exchange = null;
             String dir = "C:\\TempAttachment\\";
             String fileExtension = ".PDF";
-            
-
             
             foreach(string email in ConfigurationSettings.AppSettings.AllKeys)
             {
@@ -40,7 +37,6 @@ namespace VoiceEmail
                 if (exchange != null)
                 {
                     SearchFilter.IsEqualTo filter = new SearchFilter.IsEqualTo(ItemSchema.HasAttachments, true);
-                    //exchange.ImpersonatedUserId = new ImpersonatedUserId(ConnectingIdType.SmtpAddress, userDomainOrEmail);
                     FindItemsResults<Item> findResults = exchange.FindItems(WellKnownFolderName.Inbox, filter, new ItemView(10));
 
                     foreach (Item item in findResults)
@@ -51,9 +47,7 @@ namespace VoiceEmail
                         {
                             if (attachment is FileAttachment)
                             {
-                                //String extension = attachment.Name.ToString().Split('.').Last();
                                 FileAttachment fileAttachment = attachment as FileAttachment;
-                                //if (string.Compare(extension, "wav", StringComparison.CurrentCultureIgnoreCase) == 0)
                                 if (attachment.Name.ToUpper().Contains(fileExtension))
                                 {
                                     Console.WriteLine("Time: " + message.DateTimeReceived.ToString());
