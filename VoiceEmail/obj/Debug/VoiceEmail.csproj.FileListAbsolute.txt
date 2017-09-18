@@ -1,0 +1,12 @@
+c:\users\armando.sierralta\documents\visual studio 2015\Projects\VoiceEmail\VoiceEmail\bin\Debug\VoiceEmail.exe.config
+C:\Users\armando.sierralta\Documents\Visual Studio 2015\Projects\VoiceEmail\VoiceEmail\bin\Debug\VoiceEmail.exe
+C:\Users\armando.sierralta\Documents\Visual Studio 2015\Projects\VoiceEmail\VoiceEmail\bin\Debug\VoiceEmail.pdb
+C:\Users\armando.sierralta\Documents\Visual Studio 2015\Projects\VoiceEmail\VoiceEmail\bin\Debug\Microsoft.Exchange.WebServices.Auth.dll
+C:\Users\armando.sierralta\Documents\Visual Studio 2015\Projects\VoiceEmail\VoiceEmail\bin\Debug\Microsoft.Exchange.WebServices.dll
+C:\Users\armando.sierralta\Documents\Visual Studio 2015\Projects\VoiceEmail\VoiceEmail\bin\Debug\Microsoft.Exchange.WebServices.pdb
+C:\Users\armando.sierralta\Documents\Visual Studio 2015\Projects\VoiceEmail\VoiceEmail\bin\Debug\Microsoft.Exchange.WebServices.xml
+C:\Users\armando.sierralta\Documents\Visual Studio 2015\Projects\VoiceEmail\VoiceEmail\bin\Debug\Microsoft.Exchange.WebServices.Auth.pdb
+C:\Users\armando.sierralta\Documents\Visual Studio 2015\Projects\VoiceEmail\VoiceEmail\bin\Debug\Microsoft.Exchange.WebServices.Auth.xml
+C:\Users\armando.sierralta\Documents\Visual Studio 2015\Projects\VoiceEmail\VoiceEmail\obj\Debug\VoiceEmail.csprojResolveAssemblyReference.cache
+C:\Users\armando.sierralta\Documents\Visual Studio 2015\Projects\VoiceEmail\VoiceEmail\obj\Debug\VoiceEmail.exe
+C:\Users\armando.sierralta\Documents\Visual Studio 2015\Projects\VoiceEmail\VoiceEmail\obj\Debug\VoiceEmail.pdb
