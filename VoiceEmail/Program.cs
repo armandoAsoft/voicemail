@@ -27,7 +27,7 @@ namespace VoiceEmail
                 {
                     exchange = new ExchangeService(ExchangeVersion.Exchange2013_SP1);
                     exchange.Credentials = new WebCredentials(username, password);
-                    exchange.AutodiscoverUrl(userDomain);
+                    exchange.AutodiscoverUrl(userDomain, RedirectionCallback);
                 }
                 catch (Exception ex)
                 {
@@ -64,6 +64,11 @@ namespace VoiceEmail
                     }
                 }
             }
+        }
+
+        static bool RedirectionCallback(string url)
+        {
+            return url.ToLower().StartsWith("https://");
         }
     }
 }
